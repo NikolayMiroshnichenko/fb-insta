@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Vintage Deco';
+    src: url('VintageDeco.eot');
+    src: local('Vintage Deco'), local('VintageDeco'),
+        url('VintageDeco.eot?#iefix') format('embedded-opentype'),
+        url('VintageDeco.woff2') format('woff2'),
+        url('VintageDeco.woff') format('woff'),
+        url('VintageDeco.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vintage Deco Demi';
+    src: url('VintageDecoDemi.eot');
+    src: local('Vintage Deco Demi'), local('VintageDecoDemi'),
+        url('VintageDecoDemi.eot?#iefix') format('embedded-opentype'),
+        url('VintageDecoDemi.woff2') format('woff2'),
+        url('VintageDecoDemi.woff') format('woff'),
+        url('VintageDecoDemi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vintage Deco';
+    src: url('VintageDeco-Bold.eot');
+    src: local('Vintage Deco Bold'), local('VintageDeco-Bold'),
+        url('VintageDeco-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VintageDeco-Bold.woff2') format('woff2'),
+        url('VintageDeco-Bold.woff') format('woff'),
+        url('VintageDeco-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vintage Deco';
+    src: url('VintageDecoMedium.eot');
+    src: local('Vintage Deco Medium'), local('VintageDecoMedium'),
+        url('VintageDecoMedium.eot?#iefix') format('embedded-opentype'),
+        url('VintageDecoMedium.woff2') format('woff2'),
+        url('VintageDecoMedium.woff') format('woff'),
+        url('VintageDecoMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vintage Deco';
+    src: url('VintageDecoLight.eot');
+    src: local('Vintage Deco Light'), local('VintageDecoLight'),
+        url('VintageDecoLight.eot?#iefix') format('embedded-opentype'),
+        url('VintageDecoLight.woff2') format('woff2'),
+        url('VintageDecoLight.woff') format('woff'),
+        url('VintageDecoLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

@@ -1,0 +1,147 @@
+@media (max-width: 1169px) {
+  .container {
+    width: 740px;
+  }
+  .main-text:nth-child(2) {
+    margin-left: 0;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .main-text {
+    margin-bottom: 20px;
+  }
+  .main-content {
+    width: 430px;
+  }
+  .main-form {
+    width: 300px;
+  }
+  .form {
+    padding: 20px;
+  }
+  .foreword-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .foreword-list__item {
+    margin-bottom: 80px;
+  }
+  .foreword-list__item:last-child {
+    margin-bottom: 0;
+  }
+  .forewordSliderBox {
+    width: 100%;
+  }
+  .speker-list__item {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .speker-list__item:nth-child(1),
+  .speker-list__item:nth-child(2),
+  .speker-list__item:nth-child(3),
+  .speker-list__item:nth-child(4),
+  .speker-list__item:nth-child(5) {
+    width: 100%;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  .section {
+    margin-bottom: 60px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .main-title {
+    margin-bottom: 40px;
+  }
+  .header-info__date {
+    font-size: 18px;
+  }
+  .header-info__time {
+    font-size: 14px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main-form,
+  .main-content {
+    width: 100%;
+  }
+  .main-text > br {
+    display: none;
+  }
+  .main-text:nth-child(1),
+  .main-text:nth-child(2),
+  .main-text:nth-child(3) {
+    margin-right: 0;
+  }
+  .form {
+    padding: 40px;
+  }
+  .foreword-list__item {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .foreword-list__item::before {
+    right: 0;
+    width: 90px;
+    height: 90px;
+    transform: translateY(50%);
+  }
+  .foreword-slider-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .forewordSliderBox-header {
+    flex-direction: column;
+  }
+  .forewordSliderBox-header__logo {
+    margin-bottom: 20px;
+  }
+  .forewordSliderBox-header__list {
+    width: 100%;
+  }
+  .forewordSliderBox-header__listItem {
+    width: 45%;
+  }
+  .lessonListItem {
+    margin-bottom: 60px;
+  }
+  .lessonListItem-list {
+    padding: 40px 20px 0 20px;
+  }
+  .lessonListItem-list__item {
+    padding-left: 20px;
+
+  } 
+  .lessonListItem-list__item::before {
+    left: 0;
+    width: 12px;
+    height: 12px;
+  }
+  .speker-img {
+    width: 100%;
+  }
+  .speker-img__name {
+    top: 0;
+    left: 0;
+  }
+  .speker-img__name-first {
+    font-size: 22px;
+  }
+  .speker-img__name-second {
+    font-size: 36px;
+  }
+  .footer-list {
+      flex-direction: column;
+  }
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Intro";
+  background-image: url(../img/bg.png);
+  background-size: cover;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.section {
+  margin-bottom: 120px;
+}
+
+.title {
+  font-size: 40px;
+  font-family: "Vintage Deco";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(154deg, #ff993f, #ff0a5e, #0059a0);
+}
+
+.text-color-blackRed {
+  color: #d00f6c;
+}
+.text-color-blue {
+  color: #10549c;
+}
+.text-color-orange {
+  color: #ff6746;
+}
+:-ms-input-placeholder {
+  color: #02589f;
+  font-weight: 400;
+  font-family: "Intro";
+  font-size: 16px;
+}
+:-moz-placeholder {
+  color: #02589f;
+  font-weight: 400;
+  font-family: "Intro";
+  font-size: 16px;
+}
+::-moz-placeholder {
+  color: #02589f;
+  font-weight: 400;
+  font-family: "Intro";
+  font-size: 16px;
+}
+::-webkit-input-placeholder {
+  color: #02589f;
+  font-weight: 400;
+  font-family: "Intro";
+  font-size: 16px;
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+  color: #02589f;
+}
+.iti__arrow {
+  border-top: 4px solid #02589f;
+}
